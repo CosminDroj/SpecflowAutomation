@@ -1,33 +1,55 @@
-using System;
+using FluentAssertions;
+using Microsoft.Playwright;
 using Reqnroll;
+using Reqnroll.Assist.Dynamic;
+using SpecFlow;
+using SpecFlowPlaywright.Drivers;
+using SpecFlowPlaywright.Pages;
+using System;
+using System.Threading.Tasks;
+
+
 
 namespace SpecFlowPlaywright.StepDefinitions
 {
+    
+
     [Binding]
     public class LoginPageStepDefinitions
     {
-        [Given("Navigate into website")]
-        public void GivenNavigateIntoWebsite()
+        private readonly Driver _driver;
+        private readonly LoginPage _loginPage;
+            public LoginPageStepDefinitions(Driver driver)
         {
-            throw new PendingStepException();
+            _driver = driver;
+            _loginPage = new LoginPage(_driver.Page);
+           
+        }
+        [Given("Navigate into website")]
+        public async Task GivenNavigateIntoWebsiteAsync()
+        {
+            _driver.Page.GotoAsync("http://www.eaapp.somee.com");
         }
 
         [Given("Click on Login link")]
-        public void GivenClickOnLoginLink()
+        public async Task GivenClickOnLoginLink()
         {
-            throw new PendingStepException();
+            _loginPage.ClickLogin();
+            
         }
 
         [Given("Add username and password on related fields")]
-        public void GivenAddUsernameAndPasswordOnRelatedFields(DataTable dataTable)
+        public async Task GivenAddUsernameAndPasswordOnRelatedFields(DataTable dataTable)
         {
-            throw new PendingStepException();
+            dynamic data = dataTable.CreateDynamicInstance();
+            _loginPage.Login((string)data.Username, (string)data.Password);
         }
 
         [Then("Succesfully login")]
-        public void ThenSuccesfullyLogin()
+        public async Task ThenSuccesfullyLogin()
         {
-            throw new PendingStepException();
+            var isExist = await _loginPage.IsEmployeeDetailsExists();
+            isExist.Should().BeTrue();
         }
     }
 }

@@ -8,14 +8,39 @@
     ".NETCoreApp,Version=v10.0": {
       "SpecFlowPlaywright/1.0.0": {
         "dependencies": {
+          "Crafty.Reqnroll.Extensions.FluentTableAsserter": "3.0.1",
+          "FluentAssertions": "8.8.0",
           "Microsoft.NET.Test.Sdk": "17.14.1",
           "Microsoft.Playwright": "1.56.0",
           "NUnit3TestAdapter": "5.1.0",
+          "Reqnroll": "3.2.1",
+          "Reqnroll.Assist.Dynamic": "3.2.1",
           "Reqnroll.NUnit": "3.2.0",
+          "SpecFlow": "3.9.74",
           "NUnit": "4.4.0"
         },
         "runtime": {
           "SpecFlowPlaywright.dll": {}
+        }
+      },
+      "BoDi/1.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/BoDi.dll": {
+            "assemblyVersion": "1.5.0.0",
+            "fileVersion": "1.5.0.0"
+          }
+        }
+      },
+      "Crafty.Reqnroll.Extensions.FluentTableAsserter/3.0.1": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.CSharp": "4.14.0",
+          "Reqnroll": "3.2.1"
+        },
+        "runtime": {
+          "lib/netstandard2.1/Reqnroll.Extensions.FluentTableAsserter.dll": {
+            "assemblyVersion": "3.0.1.0",
+            "fileVersion": "3.0.1.0"
+          }
         }
       },
       "Cucumber.CucumberExpressions/17.1.0": {
@@ -45,6 +70,22 @@
           }
         }
       },
+      "Dynamitey/3.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Dynamitey.dll": {
+            "assemblyVersion": "3.0.3.0",
+            "fileVersion": "3.0.3.0"
+          }
+        }
+      },
+      "FluentAssertions/8.8.0": {
+        "runtime": {
+          "lib/net6.0/FluentAssertions.dll": {
+            "assemblyVersion": "8.8.0.0",
+            "fileVersion": "8.8.0.0"
+          }
+        }
+      },
       "Gherkin/35.0.0": {
         "dependencies": {
           "Cucumber.Messages": "29.0.1"
@@ -69,6 +110,107 @@
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
             "assemblyVersion": "9.0.0.6",
             "fileVersion": "9.0.625.26613"
+          }
+        }
+      },
+      "Microsoft.CodeAnalysis.Common/4.14.0": {
+        "runtime": {
+          "lib/net9.0/Microsoft.CodeAnalysis.dll": {
+            "assemblyVersion": "4.14.0.0",
+            "fileVersion": "4.1400.25.26210"
+          }
+        },
+        "resources": {
+          "lib/net9.0/cs/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net9.0/de/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net9.0/es/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net9.0/fr/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net9.0/it/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net9.0/ja/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net9.0/ko/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net9.0/pl/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net9.0/pt-BR/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net9.0/ru/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net9.0/tr/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net9.0/zh-Hans/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net9.0/zh-Hant/Microsoft.CodeAnalysis.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
+      "Microsoft.CodeAnalysis.CSharp/4.14.0": {
+        "dependencies": {
+          "Microsoft.CodeAnalysis.Common": "4.14.0"
+        },
+        "runtime": {
+          "lib/net9.0/Microsoft.CodeAnalysis.CSharp.dll": {
+            "assemblyVersion": "4.14.0.0",
+            "fileVersion": "4.1400.25.26210"
+          }
+        },
+        "resources": {
+          "lib/net9.0/cs/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net9.0/de/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net9.0/es/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net9.0/fr/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net9.0/it/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net9.0/ja/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net9.0/ko/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net9.0/pl/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net9.0/pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net9.0/ru/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net9.0/tr/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net9.0/zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net9.0/zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll": {
+            "locale": "zh-Hant"
           }
         }
       },
@@ -644,7 +786,7 @@
           "Microsoft.Testing.Platform.MSBuild": "1.7.3"
         }
       },
-      "Reqnroll/3.2.0": {
+      "Reqnroll/3.2.1": {
         "dependencies": {
           "Cucumber.CucumberExpressions": "17.1.0",
           "Cucumber.HtmlFormatter": "21.15.1",
@@ -664,15 +806,86 @@
           }
         }
       },
+      "Reqnroll.Assist.Dynamic/3.2.1": {
+        "dependencies": {
+          "Dynamitey": "3.0.3",
+          "Reqnroll": "3.2.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Reqnroll.Assist.Dynamic.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
       "Reqnroll.NUnit/3.2.0": {
         "dependencies": {
           "NUnit": "4.4.0",
-          "Reqnroll": "3.2.0"
+          "Reqnroll": "3.2.1"
         },
         "runtime": {
           "lib/netstandard2.0/Reqnroll.NUnit.ReqnrollPlugin.dll": {
             "assemblyVersion": "3.0.0.0",
             "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "SpecFlow/3.9.74": {
+        "dependencies": {
+          "BoDi": "1.5.0",
+          "Gherkin": "35.0.0",
+          "Microsoft.Extensions.DependencyModel": "8.0.2",
+          "SpecFlow.Internal.Json": "1.0.8",
+          "System.Configuration.ConfigurationManager": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/TechTalk.SpecFlow.dll": {
+            "assemblyVersion": "3.9.0.0",
+            "fileVersion": "3.9.74.14555"
+          }
+        }
+      },
+      "SpecFlow.Internal.Json/1.0.8": {
+        "runtime": {
+          "lib/netstandard2.0/SpecFlow.Internal.Json.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.8.28882"
+          }
+        }
+      },
+      "System.Configuration.ConfigurationManager/4.5.0": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.5.0",
+          "System.Security.Permissions": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.3.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "System.Security.Permissions/4.5.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.6.26515.6"
           }
         }
       }
@@ -683,6 +896,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "BoDi/1.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-CzIPzdIAFSd2zuLxI+0K9s48Qv3HQDbWiApn9h96j284rHs2bSPrn/PMca3mi4q3xLSEqOp+GUJ6+mXDD9prKg==",
+      "path": "bodi/1.5.0",
+      "hashPath": "bodi.1.5.0.nupkg.sha512"
+    },
+    "Crafty.Reqnroll.Extensions.FluentTableAsserter/3.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ol+gisTMXskWYcUNxSZTvXTsHdTcbwJYxzvfd1pBmNOz80MTELg9qbm2OzKGuHppMrqtv4AgGbGhcz0RzDAnOg==",
+      "path": "crafty.reqnroll.extensions.fluenttableasserter/3.0.1",
+      "hashPath": "crafty.reqnroll.extensions.fluenttableasserter.3.0.1.nupkg.sha512"
     },
     "Cucumber.CucumberExpressions/17.1.0": {
       "type": "package",
@@ -705,6 +932,20 @@
       "path": "cucumber.messages/29.0.1",
       "hashPath": "cucumber.messages.29.0.1.nupkg.sha512"
     },
+    "Dynamitey/3.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ocF4rRKgnmBkblk8RrgRP9YxxeJBvoaoCNLXgmUMgQCjZRw2v6Rtqxt5Kni6/TtbvICeWVN9X/69G5jltUEnbQ==",
+      "path": "dynamitey/3.0.3",
+      "hashPath": "dynamitey.3.0.3.nupkg.sha512"
+    },
+    "FluentAssertions/8.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m0kwcqBwvVel03FuMa7Ozo/oTaxYbjeNlcOhQFkyQpwX/8wks6RNl/Jnn58DCZVs6c2oG1RsCZw7HfKSaxLm3w==",
+      "path": "fluentassertions/8.8.0",
+      "hashPath": "fluentassertions.8.8.0.nupkg.sha512"
+    },
     "Gherkin/35.0.0": {
       "type": "package",
       "serviceable": true,
@@ -725,6 +966,20 @@
       "sha512": "sha512-82rLw487j5jBXEi2r3WvA/cagOhcRREVRtet6izzjDMY+i392W5oNSN2KCtuIvlTpyMONEUD0MIlGAgDdsvQ/w==",
       "path": "microsoft.bcl.asyncinterfaces/9.0.6",
       "hashPath": "microsoft.bcl.asyncinterfaces.9.0.6.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.Common/4.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PC3tuwZYnC+idaPuoC/AZpEdwrtX7qFpmnrfQkgobGIWiYmGi5MCRtl5mx6QrfMGQpK78X2lfIEoZDLg/qnuHg==",
+      "path": "microsoft.codeanalysis.common/4.14.0",
+      "hashPath": "microsoft.codeanalysis.common.4.14.0.nupkg.sha512"
+    },
+    "Microsoft.CodeAnalysis.CSharp/4.14.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-568a6wcTivauIhbeWcCwfWwIn7UV7MeHEBvFB2uzGIpM2OhJ4eM/FZ8KS0yhPoNxnSpjGzz7x7CIjTxhslojQA==",
+      "path": "microsoft.codeanalysis.csharp/4.14.0",
+      "hashPath": "microsoft.codeanalysis.csharp.4.14.0.nupkg.sha512"
     },
     "Microsoft.CodeCoverage/17.14.1": {
       "type": "package",
@@ -831,12 +1086,19 @@
       "path": "nunit3testadapter/5.1.0",
       "hashPath": "nunit3testadapter.5.1.0.nupkg.sha512"
     },
-    "Reqnroll/3.2.0": {
+    "Reqnroll/3.2.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-DpNsTy68QmFMmYNEqAUurP7R/o8MynhS+dEQizd2lv7VoyVXSu1S2ewprGwCzo2zv4rjjN9zd4bpR6FHx6SXlg==",
-      "path": "reqnroll/3.2.0",
-      "hashPath": "reqnroll.3.2.0.nupkg.sha512"
+      "sha512": "sha512-/3bUO7Yt61sk3yNEVl4gDwbI6r3489lqPX9WC63u5bTaK7X6rhO0v3nL1xUvyYk9b7PtqBRpzKopDnEcglf0Vw==",
+      "path": "reqnroll/3.2.1",
+      "hashPath": "reqnroll.3.2.1.nupkg.sha512"
+    },
+    "Reqnroll.Assist.Dynamic/3.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tc7l2Hpg5T757ogx1p4YUKDA/iAsc4IsAAbMHrI3XQE+uLD94QU2BjLLCdG96qguXwvz8KuQeTAOa4NHwJCXvw==",
+      "path": "reqnroll.assist.dynamic/3.2.1",
+      "hashPath": "reqnroll.assist.dynamic.3.2.1.nupkg.sha512"
     },
     "Reqnroll.NUnit/3.2.0": {
       "type": "package",
@@ -844,6 +1106,41 @@
       "sha512": "sha512-dbwSl2Jerzq3p9pEQV2LMPeRt3Fflj8ulncH6f+XvfOLMcHaxb8HxKCHTMIwMZchwziayOWDlV2OTaUYz+Kefg==",
       "path": "reqnroll.nunit/3.2.0",
       "hashPath": "reqnroll.nunit.3.2.0.nupkg.sha512"
+    },
+    "SpecFlow/3.9.74": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-n6kcg9ZeQWxqJFoT23SsFT89U1QQNwvcN9pAX5alB6ZPr6K0p5D5nGIJ1PZsSaFaRFutiwQ+DicmxBCPAZVYIA==",
+      "path": "specflow/3.9.74",
+      "hashPath": "specflow.3.9.74.nupkg.sha512"
+    },
+    "SpecFlow.Internal.Json/1.0.8": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lVCC/Rie7N5rFoc7YxPS0nneLfsWSTIMMlkndwxhaD8MxBp3Bsv1HeiVjVwXCjWaQeoqZcvIy52fF5Xit00ZLw==",
+      "path": "specflow.internal.json/1.0.8",
+      "hashPath": "specflow.internal.json.1.0.8.nupkg.sha512"
+    },
+    "System.Configuration.ConfigurationManager/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-UIFvaFfuKhLr9u5tWMxmVoDPkFeD+Qv8gUuap4aZgVGYSYMdERck4OhLN/2gulAc0nYTEigWXSJNNWshrmxnng==",
+      "path": "system.configuration.configurationmanager/4.5.0",
+      "hashPath": "system.configuration.configurationmanager.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wLBKzFnDCxP12VL9ANydSYhk59fC4cvOr9ypYQLPnAj48NQIhqnjdD2yhP8yEKyBJEjERWS9DisKL7rX5eU25Q==",
+      "path": "system.security.cryptography.protecteddata/4.5.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.5.0.nupkg.sha512"
+    },
+    "System.Security.Permissions/4.5.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9gdyuARhUR7H+p5CjyUB/zPk7/Xut3wUSP8NJQB6iZr8L3XUXTMdoLeVAg9N4rqF8oIpE7MpdqHdDHQ7XgJe0g==",
+      "path": "system.security.permissions/4.5.0",
+      "hashPath": "system.security.permissions.4.5.0.nupkg.sha512"
     }
   }
 }

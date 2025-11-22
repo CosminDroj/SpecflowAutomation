@@ -7,11 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Crafty.Reqnroll.Extensions.FluentTableAsserter" Version="3.0.1" />
+    <PackageReference Include="FluentAssertions" Version="8.8.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.14.1" />
     <PackageReference Include="Microsoft.Playwright" Version="1.56.0" />
+    <PackageReference Include="Reqnroll" Version="3.2.1" />
+    <PackageReference Include="Reqnroll.Assist.Dynamic" Version="3.2.1" />
     <PackageReference Include="Reqnroll.NUnit" Version="3.2.0" />
     <PackageReference Include="nunit" Version="4.4.0" />
     <PackageReference Include="NUnit3TestAdapter" Version="5.1.0" />
+    <PackageReference Include="SpecFlow" Version="3.9.74" />
   </ItemGroup>
 
   <ItemGroup>

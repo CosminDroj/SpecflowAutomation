@@ -1,15 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "z191sS77xXg=",
+  "dgSpecHash": "fFnajL986pk=",
   "success": true,
   "projectFilePath": "C:\\Users\\drojc\\source\\repos\\SpecFlowPlaywright\\SpecFlowPlaywright.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\drojc\\.nuget\\packages\\bodi\\1.5.0\\bodi.1.5.0.nupkg.sha512",
+    "C:\\Users\\drojc\\.nuget\\packages\\crafty.reqnroll.extensions.fluenttableasserter\\3.0.1\\crafty.reqnroll.extensions.fluenttableasserter.3.0.1.nupkg.sha512",
     "C:\\Users\\drojc\\.nuget\\packages\\cucumber.cucumberexpressions\\17.1.0\\cucumber.cucumberexpressions.17.1.0.nupkg.sha512",
     "C:\\Users\\drojc\\.nuget\\packages\\cucumber.htmlformatter\\21.15.1\\cucumber.htmlformatter.21.15.1.nupkg.sha512",
     "C:\\Users\\drojc\\.nuget\\packages\\cucumber.messages\\29.0.1\\cucumber.messages.29.0.1.nupkg.sha512",
+    "C:\\Users\\drojc\\.nuget\\packages\\dynamitey\\3.0.3\\dynamitey.3.0.3.nupkg.sha512",
+    "C:\\Users\\drojc\\.nuget\\packages\\fluentassertions\\8.8.0\\fluentassertions.8.8.0.nupkg.sha512",
     "C:\\Users\\drojc\\.nuget\\packages\\gherkin\\35.0.0\\gherkin.35.0.0.nupkg.sha512",
     "C:\\Users\\drojc\\.nuget\\packages\\microsoft.applicationinsights\\2.23.0\\microsoft.applicationinsights.2.23.0.nupkg.sha512",
     "C:\\Users\\drojc\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\9.0.6\\microsoft.bcl.asyncinterfaces.9.0.6.nupkg.sha512",
+    "C:\\Users\\drojc\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.11.0\\microsoft.codeanalysis.analyzers.3.11.0.nupkg.sha512",
+    "C:\\Users\\drojc\\.nuget\\packages\\microsoft.codeanalysis.common\\4.14.0\\microsoft.codeanalysis.common.4.14.0.nupkg.sha512",
+    "C:\\Users\\drojc\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.14.0\\microsoft.codeanalysis.csharp.4.14.0.nupkg.sha512",
     "C:\\Users\\drojc\\.nuget\\packages\\microsoft.codecoverage\\17.14.1\\microsoft.codecoverage.17.14.1.nupkg.sha512",
     "C:\\Users\\drojc\\.nuget\\packages\\microsoft.extensions.dependencymodel\\8.0.2\\microsoft.extensions.dependencymodel.8.0.2.nupkg.sha512",
     "C:\\Users\\drojc\\.nuget\\packages\\microsoft.net.test.sdk\\17.14.1\\microsoft.net.test.sdk.17.14.1.nupkg.sha512",
@@ -25,10 +32,29 @@
     "C:\\Users\\drojc\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\drojc\\.nuget\\packages\\nunit\\4.4.0\\nunit.4.4.0.nupkg.sha512",
     "C:\\Users\\drojc\\.nuget\\packages\\nunit3testadapter\\5.1.0\\nunit3testadapter.5.1.0.nupkg.sha512",
-    "C:\\Users\\drojc\\.nuget\\packages\\reqnroll\\3.2.0\\reqnroll.3.2.0.nupkg.sha512",
+    "C:\\Users\\drojc\\.nuget\\packages\\reqnroll\\3.2.1\\reqnroll.3.2.1.nupkg.sha512",
+    "C:\\Users\\drojc\\.nuget\\packages\\reqnroll.assist.dynamic\\3.2.1\\reqnroll.assist.dynamic.3.2.1.nupkg.sha512",
     "C:\\Users\\drojc\\.nuget\\packages\\reqnroll.nunit\\3.2.0\\reqnroll.nunit.3.2.0.nupkg.sha512",
     "C:\\Users\\drojc\\.nuget\\packages\\reqnroll.tools.msbuild.generation\\3.2.0\\reqnroll.tools.msbuild.generation.3.2.0.nupkg.sha512",
-    "C:\\Users\\drojc\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512"
+    "C:\\Users\\drojc\\.nuget\\packages\\specflow\\3.9.74\\specflow.3.9.74.nupkg.sha512",
+    "C:\\Users\\drojc\\.nuget\\packages\\specflow.internal.json\\1.0.8\\specflow.internal.json.1.0.8.nupkg.sha512",
+    "C:\\Users\\drojc\\.nuget\\packages\\system.componentmodel.annotations\\5.0.0\\system.componentmodel.annotations.5.0.0.nupkg.sha512",
+    "C:\\Users\\drojc\\.nuget\\packages\\system.configuration.configurationmanager\\4.5.0\\system.configuration.configurationmanager.4.5.0.nupkg.sha512",
+    "C:\\Users\\drojc\\.nuget\\packages\\system.security.cryptography.protecteddata\\4.5.0\\system.security.cryptography.protecteddata.4.5.0.nupkg.sha512",
+    "C:\\Users\\drojc\\.nuget\\packages\\system.security.permissions\\4.5.0\\system.security.permissions.4.5.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1608",
+      "level": "Warning",
+      "message": "Detected package version outside of dependency constraint: Reqnroll.NUnit 3.2.0 requires Reqnroll (= 3.2.0) but version Reqnroll 3.2.1 was resolved.",
+      "projectPath": "C:\\Users\\drojc\\source\\repos\\SpecFlowPlaywright\\SpecFlowPlaywright.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\drojc\\source\\repos\\SpecFlowPlaywright\\SpecFlowPlaywright.csproj",
+      "libraryId": "Reqnroll",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }
